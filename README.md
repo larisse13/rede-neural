@@ -4,13 +4,13 @@ O presente projeto é associado à disciplina de Matemática para Ciência de Da
 
 O objetivo é implementar adaptações em uma rede neural desenvolvida em sala de aula em Python (com NumPy), com forward e backward calculados neurônio a neurônio.
 
-
 ---
 
 ## 1. Base de dados
 
-Houve a alteração para o dataset `make_circles` do scikit-learn: dois círculos, um dentro do outro. A rede classifica cada ponto como **interno (classe 1)** ou **externo (classe 0)**.
+Houve a alteração para o dataset `make_circles` do scikit-learn que apresenta dois círculos concêntricos. A rede classifica cada ponto como **interno (classe 1)** ou **externo (classe 0)**.
 
+PROBLEMA: Encontrar a fronteira de aproximação dos círculos concêntricos de modo realizar a classificação entre os elementos corretamente através de uma rede neural com camadas ocultas.
 
 | Parâmetro | Valor |
 |---|---|
@@ -37,7 +37,10 @@ Houve a alteração para o dataset `make_circles` do scikit-learn: dois círculo
 | Avaliação | dados de treino | dados de teste |
 | Métricas | acurácia | acurácia, loss e erro |
 
+
 **Arquitetura final:** 2 entradas → 3 neurônios → 2 neurônios → 1 saída | 2 camadas ocultas
+
+![Arquitetura da Rede](img/arquitetura_rede.jpg)
 
 ---
 
