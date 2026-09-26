@@ -77,7 +77,7 @@ identificar que a estrutura com 2 camadas ocultas, uma com 3 neurônios e outra
 com 2 neurônios, chegava a uma classificação bem sucedida.
 
 Então, tendo uma proposta como base, o passo seguinte foi implementar as funções 
-da rede neural com base no exercicio4.ipynb disponibilizado em aula.
+da rede neural com base no exemplo4.py disponibilizado em aula.
 
 A função rodar_rede_neural realiza apenas o forward e retorna a classe prevista 
 (0 ou 1). Já a função rede_neural realiza o forward, calcula o erro e a loss, e 
